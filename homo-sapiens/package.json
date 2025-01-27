@@ -13,7 +13,7 @@
           "asset": {
             "type": "asset",
             "registry": "platforma-open",
-            "root": "./indexed_genome/Homo_sapiens"
+            "root": "./indexed_genome/mkref_Homo_sapiens"
           }
         }
       }

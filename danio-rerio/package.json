@@ -13,7 +13,7 @@
           "asset": {
             "type": "asset",
             "registry": "platforma-open",
-            "root": "./indexed_genome/Danio_rerio"
+            "root": "./indexed_genome/mkref_Danio_rerio"
           }
         }
       }
