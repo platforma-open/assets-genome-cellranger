@@ -31,12 +31,11 @@ download_and_install_cellranger() {
     local arch="$2"
     echo "Downloading and installing Cell Ranger version ${version} for ${arch}..."
     (
-        set -x
         mkdir -p "cellranger-${version}"
         cd "cellranger-${version}"
         wget -nv -O "cellranger-${version}-${arch}.tar.gz" \
             "${BASE_URL}/${version}/cellranger-${version}-${arch}.tar.gz"
-        tar -xzvf "cellranger-${version}-${arch}.tar.gz"
+        tar -xzf "cellranger-${version}-${arch}.tar.gz"
     )
     CELLRANGER_CMD="$(realpath "cellranger-${version}/bin/cellranger")"
 }
@@ -88,7 +87,7 @@ fi
 # Calculate memory and threads
 NUM_THREADS=$(nproc)
 TOTAL_MEM_GB=$(awk '/MemTotal/ {print int($2 / 1024 / 1024)}' /proc/meminfo)
-MEM_TO_USE_GB=$(awk "BEGIN {print int(${TOTAL_MEM_GB} * 0.95)}")
+MEM_TO_USE_GB=$(awk "BEGIN {print int(${TOTAL_MEM_GB} * 0.8)}")
 
 # Create output directory if it doesn't exist
 mkdir -p "${OUTPUT_FOLDER}"
