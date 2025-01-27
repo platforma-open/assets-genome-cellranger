@@ -1,0 +1,19 @@
+packages:
+  - test-species
+  - saccharomyces-cerevisiae
+  - homo-sapiens
+  - mus-musculus
+  - rattus-norvegicus
+  - danio-rerio
+  - drosophila-melanogaster
+  - arabidopsis-thaliana
+  - caenorhabditis-elegans
+  - gallus-gallus
+  - bos-taurus
+  - sus-scrofa
+  - catalogue
+
+catalog:
+  'turbo': ^2.3.3
+  '@changesets/cli': ^2.27.12
+  '@platforma-sdk/package-builder': ^2.15.0

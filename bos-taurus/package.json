@@ -1,0 +1,28 @@
+{
+    "name": "@platforma-open/milaboratories.cellranger-genome-assets.bos-taurus",
+    "version": "1.0.0",
+    "description": "Assets for Bos Taurus",
+    "scripts": {
+      "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/",
+      "build": "../build-everything.sh ./genomeFileUrls.json",
+      "postbuild": "pl-pkg build && ([ -z \"${CI}\" ] || pl-pkg publish)"
+    },
+    "block-software": {
+      "entrypoints": {
+        "main": {
+          "asset": {
+            "type": "asset",
+            "registry": "platforma-open",
+            "root": "./indexed_genome/Bos_taurus"
+          }
+        }
+      }
+    },
+    "files": [
+      "dist/"
+    ],
+    "license": "UNLICENSED",
+    "devDependencies": {
+      "@platforma-sdk/package-builder": "catalog:"
+    }
+  }

@@ -1,0 +1,7 @@
+{
+    "Rattus_norvegicus": {
+      "assembly_version": "mRatBN7.2",
+      "genome_url": "https://ftp.ensembl.org/pub/release-113/fasta/rattus_norvegicus/dna/Rattus_norvegicus.mRatBN7.2.dna.toplevel.fa.gz",
+      "gtf_url": "https://ftp.ensembl.org/pub/release-113/gtf/rattus_norvegicus/Rattus_norvegicus.mRatBN7.2.113.gtf.gz"
+    }
+}

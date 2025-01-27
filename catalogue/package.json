@@ -1,0 +1,70 @@
+{
+    "name": "@platforma-open/milaboratories.cellranger-genome-assets",
+    "version": "1.0.0",
+    "description": "CellRanger indexed genome references.",
+    "scripts": {
+        "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",
+        "build": "pl-pkg build"
+    },
+    "block-software": {
+        "entrypoints": {
+            "test-species": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.test-species/dist/tengo/asset/main.as.json"
+            },
+            "sus-scrofa": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.sus-scrofa/dist/tengo/asset/main.as.json"
+            },
+            "saccharomyces-cerevisiae": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.saccharomyces-cerevisiae/dist/tengo/asset/main.as.json"
+            },
+            "rattus-norvegicus": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.rattus-norvegicus/dist/tengo/asset/main.as.json"
+            },
+            "mus-musculus": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.mus-musculus/dist/tengo/asset/main.as.json"
+            },
+            "homo-sapiens": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.homo-sapiens/dist/tengo/asset/main.as.json"
+            },
+            "gallus-gallus": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.gallus-gallus/dist/tengo/asset/main.as.json"
+            },
+            "drosophila-melanogaster": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.drosophila-melanogaster/dist/tengo/asset/main.as.json"
+            },
+            "danio-rerio": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.danio-rerio/dist/tengo/asset/main.as.json"
+            },
+            "caenorhabditis-elegans": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.caenorhabditis-elegans/dist/tengo/asset/main.as.json"
+            },
+            "bos-taurus": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.bos-taurus/dist/tengo/asset/main.as.json"
+            },
+            "arabidopsis-thaliana": {
+                "reference": "@platforma-open/milaboratories.cellranger-genome-assets.arabidopsis-thaliana/dist/tengo/asset/main.as.json"
+            }
+        }
+    },
+    "files": [
+        "dist/"
+    ],
+    "license": "UNLICENSED",
+    "dependencies": {
+        "@platforma-open/milaboratories.cellranger-genome-assets.test-species": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.sus-scrofa": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.saccharomyces-cerevisiae": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.rattus-norvegicus": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.mus-musculus": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.homo-sapiens": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.gallus-gallus": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.drosophila-melanogaster": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.danio-rerio": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.caenorhabditis-elegans": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.bos-taurus": "workspace:*",
+        "@platforma-open/milaboratories.cellranger-genome-assets.arabidopsis-thaliana": "workspace:*"
+    },
+    "devDependencies": {
+        "@platforma-sdk/package-builder": "catalog:"
+    }
+}

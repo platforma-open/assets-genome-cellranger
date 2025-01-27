@@ -1,0 +1,7 @@
+{
+    "Homo_sapiens": {
+      "assembly_version": "GRCh38",
+      "genome_url": "https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz",
+      "gtf_url": "https://ftp.ensembl.org/pub/release-113/gtf/homo_sapiens/Homo_sapiens.GRCh38.113.gtf.gz"
+    }
+}

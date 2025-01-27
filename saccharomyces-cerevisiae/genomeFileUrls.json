@@ -1,0 +1,7 @@
+{
+    "Saccharomyces_cerevisiae": {
+      "assembly_version": "R64-1-1",
+      "genome_url": "https://ftp.ensembl.org/pub/release-113/fasta/saccharomyces_cerevisiae/dna/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.gz",
+      "gtf_url": "https://ftp.ensembl.org/pub/release-113/gtf/saccharomyces_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.113.gtf.gz"
+    }
+  }

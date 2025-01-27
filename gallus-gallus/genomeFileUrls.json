@@ -1,0 +1,7 @@
+{
+    "Gallus_gallus": {
+      "assembly_version": "GRCg7b",
+      "genome_url": "https://ftp.ensembl.org/pub/release-113/fasta/gallus_gallus/dna/Gallus_gallus.bGalGal1.mat.broiler.GRCg7b.dna.toplevel.fa.gz",
+      "gtf_url": "https://ftp.ensembl.org/pub/release-113/gtf/gallus_gallus/Gallus_gallus.bGalGal1.mat.broiler.GRCg7b.113.gtf.gz"
+    }
+}

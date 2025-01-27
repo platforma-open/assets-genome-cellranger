@@ -1,0 +1,28 @@
+{
+    "name": "@platforma-open/milaboratories.cellranger-genome-assets.arabidopsis-thaliana",
+    "version": "1.0.0",
+    "description": "Assets for Arabidopsis Thaliana",
+    "scripts": {
+      "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/",
+      "build": "../build-everything.sh ./genomeFileUrls.json",
+      "postbuild": "pl-pkg build && ([ -z \"${CI}\" ] || pl-pkg publish)"
+    },
+    "block-software": {
+      "entrypoints": {
+        "main": {
+          "asset": {
+            "type": "asset",
+            "registry": "platforma-open",
+            "root": "./indexed_genome/Arabidopsis_thaliana"
+          }
+        }
+      }
+    },
+    "files": [
+      "dist/"
+    ],
+    "license": "UNLICENSED",
+    "devDependencies": {
+      "@platforma-sdk/package-builder": "catalog:"
+    }
+  }

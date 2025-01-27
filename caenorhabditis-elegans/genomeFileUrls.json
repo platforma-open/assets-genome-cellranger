@@ -1,0 +1,7 @@
+{
+    "Caenorhabditis_elegans": {
+      "assembly_version": "WBcel235",
+      "genome_url": "https://ftp.ensembl.org/pub/release-113/fasta/caenorhabditis_elegans/dna/Caenorhabditis_elegans.WBcel235.dna.toplevel.fa.gz",
+      "gtf_url": "https://ftp.ensembl.org/pub/release-113/gtf/caenorhabditis_elegans/Caenorhabditis_elegans.WBcel235.113.gtf.gz"
+    }
+}
