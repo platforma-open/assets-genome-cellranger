@@ -34,7 +34,7 @@ download_and_install_cellranger() {
         set -x
         mkdir -p "cellranger-${version}"
         cd "cellranger-${version}"
-        wget --output-document "cellranger-${version}-${arch}.tar.gz" \
+        wget -nv -O "cellranger-${version}-${arch}.tar.gz" \
             "${BASE_URL}/${version}/cellranger-${version}-${arch}.tar.gz"
         tar -xzvf "cellranger-${version}-${arch}.tar.gz"
     )
@@ -117,6 +117,6 @@ else
 fi
 
 echo "Generating reference with Cell Ranger... ${SPECIES}"
-"${CELLRANGER_CMD}" mkref --genome="${OUTPUT_FOLDER}" --fasta="${GENOME_FILENAME}" --genes="${GTF_FILENAME}" --memgb="${MEM_TO_USE_GB}" --nthreads="${NUM_THREADS}"
+"${CELLRANGER_CMD}" mkref --genome="${SPECIES}"_"${ASSEMBLY_VERSION}" --fasta="${GENOME_FILENAME}" --genes="${GTF_FILENAME}" --memgb="${MEM_TO_USE_GB}" --nthreads="${NUM_THREADS}"
 
 echo "Reference generation complete for ${SPECIES}."
