@@ -115,6 +115,6 @@ else
 fi
 
 echo "Generating reference with Cell Ranger... ${SPECIES}"
-"${CELLRANGER_CMD}" mkref --genome="${SPECIES}"_"${ASSEMBLY_VERSION}" --fasta="${GENOME_FILENAME}" --genes="${GTF_FILENAME}" --memgb="${MEM_TO_USE_GB}" --nthreads="${NUM_THREADS}"
+"${CELLRANGER_CMD}" mkref --genome="${SPECIES}" --fasta="${GENOME_FILENAME}" --genes="${GTF_FILENAME}" --memgb="${MEM_TO_USE_GB}" --nthreads="${NUM_THREADS}"
 
 echo "Reference generation complete for ${SPECIES}."
