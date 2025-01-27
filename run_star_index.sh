@@ -65,7 +65,6 @@ esac
 echo "Cell Ranger is set up at ${CELLRANGER_CMD}"
 echo "Cell Ranger setup complete."
 
-
 echo "Running Cell Ranger mkref for ${SPECIES} using parameters from ${PARAMS_JSON_FILE} and outputting to ${OUTPUT_FOLDER}"
 
 # Read all necessary parameters from the JSON file using a single jq call
@@ -102,11 +101,11 @@ elif [[ "${GENOME_URL}" != "null" && "${GTF_URL}" != "null" ]]; then
     echo "Downloading and processing files for ${SPECIES}"
     GENOME_FILENAME="genome.fa"
     GTF_FILENAME="${SPECIES}_${ASSEMBLY_VERSION}_annotations.gtf"
-    
+
     # Download and decompress genome DNA fasta file
     wget -nv -O "${GENOME_FILENAME}.gz" "${GENOME_URL}"
     gunzip --force "${GENOME_FILENAME}.gz"
-    
+
     # Download and decompress genome annotation GTF file
     wget -nv -O "${GTF_FILENAME}.gz" "${GTF_URL}"
     gunzip --force "${GTF_FILENAME}.gz"

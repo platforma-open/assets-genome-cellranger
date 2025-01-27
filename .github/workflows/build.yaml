@@ -37,12 +37,23 @@ jobs:
       package-path: 'catalogue'
       create-tag: 'true'
 
-      gha-runner-label: 'ubuntu-latest'
+      gha-runner-label: 'ubuntu-2xlarge-amd64'
       aws-login-duration: 43199
       pre-calculated: true
       pre-calculated-task-list: |
         [
-            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.test-species" }
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.mus-musculus" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.test-species" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.sus-scrofa" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.saccharomyces-cerevisiae" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.rattus-norvegicus" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.homo-sapiens" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.gallus-gallus" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.drosophila-melanogaster" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.danio-rerio" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.caenorhabditis-elegans" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.bos-taurus" },
+            { "step": "@platforma-open/milaboratories.cellranger-genome-assets.arabidopsis-thaliana" }
         ]
       npmrc-config: |
         {
