@@ -1,6 +1,6 @@
 {
   "name": "@platforma-open/milaboratories.cellranger-genome-assets.caenorhabditis-elegans",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Assets for Caenorhabditis Elegans",
   "scripts": {
     "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/",
