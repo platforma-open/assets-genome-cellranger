@@ -13,7 +13,7 @@
         "asset": {
           "type": "asset",
           "registry": "platforma-open",
-          "root": "./indexed_genome/mkref_Arabidopsis_thaliana"
+          "root": "./indexed_genome/Arabidopsis_thaliana"
         }
       }
     }

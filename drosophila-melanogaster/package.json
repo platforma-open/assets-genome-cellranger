@@ -13,7 +13,7 @@
         "asset": {
           "type": "asset",
           "registry": "platforma-open",
-          "root": "./indexed_genome/mkref_Drosophila_melanogaster"
+          "root": "./indexed_genome/Drosophila_melanogaster"
         }
       }
     }

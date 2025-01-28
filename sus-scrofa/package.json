@@ -14,7 +14,7 @@
         "asset": {
           "type": "asset",
           "registry": "platforma-open",
-          "root": "./indexed_genome/mkref_Sus_scrofa"
+          "root": "./indexed_genome/Sus_scrofa"
         }
       }
     }
