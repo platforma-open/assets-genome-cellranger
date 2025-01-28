@@ -1,6 +1,6 @@
 {
   "name": "@platforma-open/milaboratories.cellranger-genome-assets.test-species",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Assets for Test Species",
   "scripts": {
     "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/",

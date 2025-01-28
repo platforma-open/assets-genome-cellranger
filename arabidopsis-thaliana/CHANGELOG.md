@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.cellranger-genome-assets.arabidopsis-thaliana
 
+## 1.0.2
+
+### Patch Changes
+
+- 07ccb36: MILAB-1163: update all genome assets packages
+
 ## 1.0.1
 
 ### Patch Changes

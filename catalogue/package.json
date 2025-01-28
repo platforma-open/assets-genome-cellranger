@@ -1,6 +1,6 @@
 {
     "name": "@platforma-open/milaboratories.cellranger-genome-assets",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "CellRanger indexed genome references.",
     "scripts": {
         "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",
