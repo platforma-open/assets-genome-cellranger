@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.genome-assets
 
+## 1.0.2
+
+### Patch Changes
+
+- 4269c76: MILAB-1163: change root entrypoints for genomes
+
 ## 1.0.1
 
 ### Patch Changes
