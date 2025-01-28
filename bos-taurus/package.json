@@ -13,7 +13,7 @@
         "asset": {
           "type": "asset",
           "registry": "platforma-open",
-          "root": "./indexed_genome/mkref_Bos_taurus"
+          "root": "./indexed_genome/Bos_taurus"
         }
       }
     }

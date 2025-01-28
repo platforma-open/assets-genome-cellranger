@@ -13,7 +13,7 @@
         "asset": {
           "type": "asset",
           "registry": "platforma-open",
-          "root": "./indexed_genome/mkref_Saccharomyces_cerevisiae"
+          "root": "./indexed_genome/Saccharomyces_cerevisiae"
         }
       }
     }
