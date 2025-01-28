@@ -1,6 +1,6 @@
 # @platforma-open/milaboratories.genome-assets
 
-## 1.0.2
+## 1.0.1
 
 ### Patch Changes
 
@@ -17,9 +17,3 @@
   - @platforma-open/milaboratories.cellranger-genome-assets.danio-rerio@1.0.1
   - @platforma-open/milaboratories.cellranger-genome-assets.bos-taurus@1.0.1
   - @platforma-open/milaboratories.cellranger-genome-assets.sus-scrofa@1.0.1
-
-## 1.2.0
-
-### Minor Changes
-
-- 02bdca1: feat: move to build with turbo
