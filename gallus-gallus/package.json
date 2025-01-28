@@ -1,28 +1,28 @@
 {
-    "name": "@platforma-open/milaboratories.cellranger-genome-assets.gallus-gallus",
-    "version": "1.0.0",
-    "description": "Assets for Gallus Gallus",
-    "scripts": {
-      "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/",
-      "build": "../build-everything.sh ./genomeFileUrls.json",
-      "postbuild": "pl-pkg build && ([ -z \"${CI}\" ] || pl-pkg publish)"
-    },
-    "block-software": {
-      "entrypoints": {
-        "main": {
-          "asset": {
-            "type": "asset",
-            "registry": "platforma-open",
-            "root": "./indexed_genome/mkref_Gallus_gallus"
-          }
+  "name": "@platforma-open/milaboratories.cellranger-genome-assets.gallus-gallus",
+  "version": "1.0.1",
+  "description": "Assets for Gallus Gallus",
+  "scripts": {
+    "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/",
+    "build": "../build-everything.sh ./genomeFileUrls.json",
+    "postbuild": "pl-pkg build && ([ -z \"${CI}\" ] || pl-pkg publish)"
+  },
+  "block-software": {
+    "entrypoints": {
+      "main": {
+        "asset": {
+          "type": "asset",
+          "registry": "platforma-open",
+          "root": "./indexed_genome/mkref_Gallus_gallus"
         }
       }
-    },
-    "files": [
-      "dist/"
-    ],
-    "license": "UNLICENSED",
-    "devDependencies": {
-      "@platforma-sdk/package-builder": "catalog:"
     }
+  },
+  "files": [
+    "dist/"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@platforma-sdk/package-builder": "catalog:"
   }
+}
