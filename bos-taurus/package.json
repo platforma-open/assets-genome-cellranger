@@ -1,6 +1,6 @@
 {
   "name": "@platforma-open/milaboratories.cellranger-genome-assets.bos-taurus",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Assets for Bos Taurus",
   "scripts": {
     "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/",

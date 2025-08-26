@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.cellranger-genome-assets.sus-scrofa
 
+## 1.1.0
+
+### Minor Changes
+
+- e4c6a3b: chore: bump version
+
 ## 1.0.2
 
 ### Patch Changes

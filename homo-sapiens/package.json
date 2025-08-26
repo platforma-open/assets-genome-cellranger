@@ -1,6 +1,6 @@
 {
   "name": "@platforma-open/milaboratories.cellranger-genome-assets.homo-sapiens",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Assets for Homo Sapiens",
   "scripts": {
     "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/",
