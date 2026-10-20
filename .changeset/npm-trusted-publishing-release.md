@@ -1,17 +1,17 @@
 ---
-"@platforma-open/milaboratories.cellranger-genome-assets": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.arabidopsis-thaliana": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.bos-taurus": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.caenorhabditis-elegans": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.danio-rerio": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.drosophila-melanogaster": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.gallus-gallus": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.homo-sapiens": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.mus-musculus": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.rattus-norvegicus": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.saccharomyces-cerevisiae": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.sus-scrofa": minor
-"@platforma-open/milaboratories.cellranger-genome-assets.test-species": minor
+"@platforma-open/milaboratories.cellranger-genome-assets": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.arabidopsis-thaliana": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.bos-taurus": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.caenorhabditis-elegans": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.danio-rerio": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.drosophila-melanogaster": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.gallus-gallus": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.homo-sapiens": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.mus-musculus": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.rattus-norvegicus": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.saccharomyces-cerevisiae": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.sus-scrofa": patch
+"@platforma-open/milaboratories.cellranger-genome-assets.test-species": patch
 ---
 
 Release every package through npm trusted publishing (OIDC) so each package's trusted publisher is used before it expires.
